@@ -1,0 +1,236 @@
+.couples{
+    display:flex;
+     height:70%;
+   margin-left:280px;
+   margin-top:60px;
+   flex-wrap: wrap;
+}
+h1{
+    text-transform:uppercase;
+    margin-top:180px;
+    text-align:center;
+}
+.couplep{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.couple1{
+    width:450px;
+    height:700px;
+    margin-left:20px;
+    position: relative;
+    overflow: hidden;
+    transform: translatex(-50%);
+    animation: about-img-animation 1s ease-in-out forwards;
+}
+.couple1 img{
+    width:100%;
+    height:450px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 1s ease-in-out;
+}
+@keyframes about-img-animation{
+    100%{
+        transform: translate(0);
+    }
+}
+.couple1 p{
+    margin-top:20px;
+    font-size:18px;
+}
+.heart{
+    margin-left:50%;
+    font-size:30px;
+}
+.box1{
+    position: absolute;
+    top:0;
+    width:400px;
+    height:400px;
+    background-color: rgba(0, 0, 0, 0.204);
+    border: 1px solid white;
+    margin: 12px;
+    text-align: center;
+    
+}
+h4{
+   margin-top: 75%; 
+   border-top: 2px solid white;
+   width:350px;
+   margin-left: 33px;
+   border-bottom: 2px solid white;
+   padding: 12px;
+   color: white;
+   font-size: 25px;
+   text-transform: capitalize;
+}
+.couple1 img:hover{
+    transform: scale(1.1);
+    
+}
+.couple2 img:hover{
+    transform: scale(1.1);
+    
+}
+.couple2{
+    width:450px;
+    height:700px;
+    margin-left:20px;
+    position: relative;
+    overflow: hidden;
+    transform: translatex(50%);
+    animation: about-img-animation 1s ease-in-out forwards;
+}
+.couple2 img{
+    width:100%;
+    height:450px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 1s ease-in-out;
+}
+@keyframes about-img-animation{
+    100%{
+        transform: translate(0);
+    }
+}
+.couple2 p{
+    margin-top:20px;
+    font-size:18px;
+}
+@media(max-width:1342px){
+    .couples{
+        margin-left: 180px;
+    }
+    .couplep{
+        font-size: 25px;
+        padding: 8px;
+    }
+    .heart{
+        margin-left:48%;
+    }
+}
+@media (max-width:1195px){
+    .couples{
+        margin-left: 120px;
+    }
+}
+@media (max-width:1123px){
+    .couples{
+        margin-left: 80px;
+    }
+}
+@media (max-width:1020px){
+    .couples{
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:949px){
+    .couplep{
+        font-size: 20px;
+       text-align: center;
+       margin-left: 20px;
+    }
+}
+@media (max-width:865px){
+    .couplep{
+        font-size: 20px;
+       text-align: center;
+       padding-left: 120px;
+    }
+    h1{
+        text-transform:uppercase;
+        margin-top:140px;
+        font-size: 30px;
+        text-align:center;
+        padding-left: 120px;
+    }
+    .heart{
+        margin-left: 55%;
+    }
+}
+@media (max-width:784px){
+    .couplep{
+        font-size: 25px;
+       text-align: center;
+       padding-left: 120px;
+    }
+    h1{
+        text-transform:uppercase;
+        margin-top:140px;
+        font-size: 35px;
+        text-align:center;
+        padding-left: 150px;
+    }
+    .heart{
+        margin-left: 55%;
+    }
+    .couple1{
+        width:900%;
+    }
+    .couple2{
+        width:900%;
+    }
+    .box1{
+        width:400px;
+        height:400px;
+    }
+}
+@media(max-width:726px){
+    .couple{
+        width:139%;
+    }
+    .couple1{
+        width:600px;
+       
+    }
+    .couple2{
+        width:600px;
+    }
+    .box1{
+        width:550px;
+        height: 400px;
+    }
+    h4{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+}
+@media(max-width:637px){
+    .couple{
+        width:160%;
+    }
+}
+@media(max-width:551px){
+    .couple{
+        width:181%;
+    }
+}
+@media(max-width:487px){
+    .couple{
+        width:200%;
+    }
+}
+@media(max-width:445px){
+    .couple{
+        width:220%;
+    }
+}
+@media(max-width:401px){
+    .couple{
+        width:243%;
+    }
+}
+@media(max-width:359px){
+    .couple{
+        width:275%;
+    }
+}
+@media(max-width:445px){
+    .couple{
+        width:310%;
+    }
+}
+

@@ -1,0 +1,253 @@
+.abou1 h2{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+
+}
+.card2{
+    display: flex;
+    margin-left: 15%;
+    flex-wrap: wrap;
+}
+.him{
+    width:450px;
+    height:550px;
+    position: relative;
+    margin-left: 5%;
+    transform: translatex(-50%);
+    animation: about-img-animation 1s ease-in-out forwards;
+}
+.her{
+    width:450px;
+    height:550px;
+    position: relative;
+    margin-left: 5%;
+    transform: translatex(50%);
+    animation: about-img-animation 1s ease-in-out forwards;
+}
+
+.him img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: top;
+    transition: all 1s ease-in-out;
+}
+.her img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: top;
+    transition: all 1s ease-in-out;
+}
+@keyframes about-img-animation{
+    100%{
+        transform: translate(0);
+    }
+}
+.himbox{
+   position: absolute;
+   top:0;
+   width:100%;
+   height:100%;
+   background-color: rgba(0, 0, 0, 0.361);
+   color: white;
+   opacity: 0;
+}
+.him:hover .himbox{
+    opacity: 1;
+}
+.her:hover .himbox{
+    opacity: 1;
+}
+.himbox p{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+@media(max-width:1175px){
+    .card2{
+        margin-left: 25%;
+     }
+     .him{
+        height: 450px;
+     }
+     .her{
+    height:450px ;
+    margin-top: 30px;
+     }
+}
+
+@media(max-width:1001px){
+    .abou1{
+      width:102%;
+    }
+
+  }
+  @media(max-width:969px){
+    .abou1{
+      width:105%;
+    }
+  }
+  @media(max-width:940px){
+    .abou1{
+      width:107%;
+    }
+  }
+  @media(max-width:913px){
+    .abou1{
+      width:109%;
+    }
+  }
+  @media(max-width:894px){
+    .abou1{
+      width:113%;
+    }
+  }
+  @media(max-width:860px){
+    .abou1{
+      width:117%;
+    }
+  }
+  @media(max-width:834px){
+    .abou1{
+      width:120%;
+    }
+  }
+  @media(max-width:798px){
+    .abou1{
+      width:125%;
+    }
+  }
+  @media(max-width:785px){
+    .abou1{
+      width:128%;
+    }
+  }
+  @media(max-width:737px){
+    .abou1{
+      width:136%;
+    }
+  }
+  @media(max-width:711px){
+    .abou1{
+      width:145%;
+    }
+  }
+  @media(max-width:676px){
+    .abou1{
+      width:148%;
+    }
+  }
+  @media(max-width:668px){
+    .abou1{
+      width:151%;
+    }
+  }
+  @media(max-width:653px){
+    .abou1{
+      width:153%;
+    }
+  }
+  @media(max-width:640px){
+    .abou1{
+      width:159%;
+    }
+  }
+  @media(max-width:610px){
+    .abou1{
+      width:162%;
+    }
+  }
+  @media(max-width:591px){
+    .abou1{
+      width:169%;
+    }
+  }
+  @media(max-width:581px){
+    .abou1{
+      width:172%;
+    }
+  }
+  @media(max-width:567px){
+    .abou1{
+      width:175%;
+    }
+  }
+  @media(max-width:556px){
+    .abou1{
+      width:180%;
+    }
+  }
+  @media(max-width:545px){
+    .abou1{
+      width:184%;
+    }
+  }
+  @media(max-width:535px){
+    .abou1{
+      width:187%;
+    }
+  }
+  @media(max-width:525px){
+    .abou1{
+      width:190%;
+    }
+  }
+  @media(max-width:512px){
+    .abou1{
+      width:197%;
+    }
+  }
+  @media(max-width:491px){
+    .abou1{
+      width:206%;
+    }
+  }
+  @media(max-width:481px){
+    .abou1{
+      width:209%;
+      margin-top: 100%;
+    }
+  }
+  @media(max-width:479px){
+    .abou1{
+      width:310%;
+      margin-top: 1%;
+    }
+    .him{
+        width:80%;
+        height: 1000px;
+    }
+    .her{
+        width:80%;
+        height: 1010px;
+        margin-top: 30%;
+    }
+    .abou1 h1{
+        padding-top: 0;
+    }
+
+  }
+  @media(max-width:346px){
+    .abou1{
+      
+      width:322%;
+      margin-top: 1%;
+    }
+  }
+  @media(max-width:326px){
+    .abou1{
+      width:340%;
+      margin-top: 190%;
+    }
+  }
+  @media(max-width:311px){
+    .abou1{
+      width:357%;
+      margin-top: 210%;
+    }
+  }

@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+.background{
+    width:100%;
+    height:100vh;
+  
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+.box{
+   position: absolute;
+   top:0%;
+   width:100%;
+   height:100%;
+   background-color: rgba(0, 0, 0, 0.498);
+}
+.navbar{
+   
+    margin-top:35px;
+    text-align: center;}
+.item{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: center;
+    width:900px;
+    margin-left: 300px;
+    text-transform: capitalize;
+}
+.item p,.link{
+    margin-top: 20px;
+}
+.round{
+    border: 2px solid white;
+    width:70px;
+    height:70px;
+    border-radius: 50px;
+    background-color: rgb(184, 4, 4);
+}
+.round h6{
+    padding-top: 25px;
+    font-size: 15px;
+}
+.link{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.maincontent{
+    position: absolute;
+    top:37%;
+    left:39%;
+    text-align: center;
+    color: white;
+}
+.maincontent h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.maincontent p{
+    font-size: 30px;
+    margin-top: 12px;
+    border-bottom: 2px solid white;
+    padding-bottom: 12px;
+}
+span{
+    color:red;
+    font-size: 20px;
+}
+@media(max-width:1290px){
+    .item{
+        margin-left:200px ;}
+}
+@media(max-width:1150px){
+    .item{
+        margin-left:100px ;}
+}
+@media(max-width:1001px){
+    .item{
+        margin-left:80px ;}
+    .background{
+        width:1001px;
+        height:106vh;
+    }
+    .box{
+        width:1001px;
+        height:106vh;
+    }
+    .maincontent{
+        left:36%;
+    }
+}
+@media(max-width:942px){
+    .background{
+        height: 111vh;
+    }
+    .box{
+        height: 111vh;
+    }
+}
+@media(max-width:900px){
+    .background{
+        height: 120vh;
+    }
+    .box{
+        height: 120vh;
+    }
+}
+@media(max-width:832px){
+    .background{
+        height: 130vh;
+    }
+    .box{
+        height: 130vh;
+    }
+}
+@media(max-width:767px){
+    .background{
+        height: 150vh;
+    }
+    .box{
+        height: 150vh;
+    }
+}
+@media(max-width:665px){
+    .background{
+        height: 170vh;
+    }
+    .box{
+        height: 170vh;
+    }
+    .maincontent {
+        left:28%;
+    }
+    .maincontent h2{
+        font-size: 50px;
+        
+    }
+    .maincontent p{
+        font-size: 50px;
+        
+    }
+    .item{
+        font-size: 30px;
+    }
+}
+@media (max-width:585px){
+    .background{
+        height: 190vh;
+    }
+    .box{
+        height: 190vh;
+    } 
+}
+@media (max-width:526px){
+    .background{
+        height: 210vh;
+    }
+    .box{
+        height: 210vh;
+    } 
+    .item{
+        font-size: 40px;
+    }
+}
+@media (max-width:479px){
+    .background{
+        height: 230vh;
+        width:310%;
+    }
+    .box{
+        height: 230vh;
+        width:310%
+    } 
+    .item{
+        font-size: 45px;
+        margin-left: 220px;
+    
+    }
+    .maincontent h2{
+        font-size: 70px;
+        
+    }
+    .maincontent p{
+        font-size: 60px;
+        
+    }
+    .maincontent {
+        left:33%;
+    }
+}@media(max-width:432px){
+    .background{
+        height: 250vh;
+    }
+    .box{
+        height: 250vh;
+    }  
+}
+@media(max-width:397px){
+    .background{
+        height: 270vh;
+    }
+    .box{
+        height: 270vh;
+    }  
+}
+@media(max-width:369px){
+    .background{
+        height: 290vh;
+    }
+    .box{
+        height: 290vh;
+    }  
+}
+@media(max-width:344px){
+    .background{
+        height: 300vh;
+        width:322%;
+    }
+    .box{
+        height: 300vh;
+        width:322%;
+    }  
+    .maincontent h2{
+        font-size: 80px;
+        
+    }
+    .maincontent p{
+        font-size: 80px;
+        
+    }
+    .maincontent {
+        left:10%;
+    }
+}
+@media (max-width:331px){
+    .background{
+        height: 320vh;
+        width:348%;
+    }
+    .box{
+        height: 320vh;
+        width:348%;
+    } 
+}
+@media (max-width:310px){
+    .background{
+        height: 340vh;
+        width:357%;
+    }
+    .box{
+        height: 340vh;
+        width:357%;
+    } 
+}
+@media (max-width:299px){
+    .background{
+        height: 350vh;
+    }
+    .box{
+        height: 350vh;
+    } 
+}

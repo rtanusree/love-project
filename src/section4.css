@@ -1,0 +1,226 @@
+.wedding{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:500px;
+    margin-top: 0;
+}
+.para{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    margin-left: 20%;
+    flex-wrap: wrap;
+}
+.card1{
+    width:300px;
+    background-color:rgb(231, 229, 229);
+    height:500px;
+    margin-left: 10px;
+}
+.card1 img{
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+}
+.card1 h2{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.card1 p{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+@media(max-width:1162px){
+    .boxes{
+        margin-left: 9%;
+    }
+}
+@media(max-width:1162px){
+    .boxes{
+        margin-left: 5%;
+    }
+}
+@media(max-width:1001px){
+    .wedding{
+      width:102%;
+      height:900px;
+    }
+
+  }
+  @media(max-width:969px){
+    .wedding{
+      border:2px solid green;
+      width:105%;
+    }
+  }
+  @media(max-width:940px){
+    .wedding{
+      border:2px solid green;
+      width:107%;
+    }
+  }
+  @media(max-width:913px){
+    .wedding{
+      border:2px solid green;
+      width:109%;
+    }
+  }
+  @media(max-width:894px){
+    .wedding{
+      border:2px solid green;
+      width:113%;
+    }
+  }
+  @media(max-width:860px){
+    .wedding{
+      border:2px solid green;
+      width:117%;
+    }
+  }
+  @media(max-width:834px){
+    .wedding{
+      border:2px solid green;
+      width:120%;
+    }
+  }
+  @media(max-width:815px){
+    .wedding{
+        border:2px solid green;
+        width:120%;
+        height: 1001%;
+      }
+      .boxes{
+        margin-left: 25%;
+      }
+      .card1{
+        width:500px;
+        height: 400px;
+        margin-bottom: 20px;
+        margin-top: 25px;
+      }
+      .card1 img{
+        height: 50%;;
+      }
+  }
+  @media(max-width:798px){
+    .wedding{
+      width:125%;
+    }
+  }
+  @media(max-width:785px){
+    .wedding{
+      width:128%;
+    }
+  }
+  @media(max-width:737px){
+    .wedding{
+      width:136%;
+    }
+  }
+  @media(max-width:711px){
+    .wedding{
+      width:145%;
+    }
+  }
+  @media(max-width:676px){
+    .wedding{
+      width:148%;
+    }
+  }
+  @media(max-width:668px){
+    .wedding{
+      width:151%;
+    }
+  }
+  @media(max-width:653px){
+    .wedding{
+      width:153%;
+    }
+  }
+  @media(max-width:640px){
+    .wedding{
+      width:159%;
+    }
+  }
+  @media(max-width:610px){
+    .wedding{
+      width:162%;
+    }
+  }
+  @media(max-width:591px){
+    .wedding{
+      width:169%;
+    }
+  }
+  @media(max-width:581px){
+    .wedding{
+      
+      width:172%;
+    }
+  }
+  @media(max-width:567px){
+    .wedding{
+      width:175%;
+    }
+  }
+  @media(max-width:556px){
+    .wedding{
+      width:180%;
+    }
+  }
+  @media(max-width:545px){
+    .wedding{
+      width:184%;
+    }
+  }
+  @media(max-width:535px){
+    .wedding{
+      width:187%;
+    }
+  }
+  @media(max-width:525px){
+    .wedding{
+      width:190%;
+    }
+  }
+  @media(max-width:512px){
+    .attending{
+      width:197%;
+    }
+  }
+  @media(max-width:491px){
+    .wedding{
+      width:206%;
+    }
+  }
+  @media(max-width:481px){
+    .wedding{
+      width:209%;
+    }
+  }
+  @media(max-width:479px){
+    .wedding{
+      width:310%;
+    }
+  }
+  @media(max-width:346px){
+    .wedding{
+      width:322%;
+    }
+  }
+  @media(max-width:326px){
+    .wedding{
+      width:340%;
+    }
+  }
+  @media(max-width:311px){
+    .wedding{
+      width:357%;
+    }
+  }

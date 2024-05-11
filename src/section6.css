@@ -1,0 +1,230 @@
+.thankyou{
+    background-image: url("https://images.pexels.com/photos/18505109/pexels-photo-18505109/free-photo-of-black-and-white-photo-of-bride-and-groom-embracing-outside.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:620px;
+    position: relative;
+}
+.thanks{
+    position: absolute;
+    width:100%;
+    height:620px;
+    background-color: rgba(0, 0, 0, 0.274);
+    color:white;
+}
+.thanks h1{
+   padding-top: 5%;
+   font-size: 35px;
+}
+.thanks p{
+   text-align: center;
+   font-size: 20px;
+   padding-top: 12px;
+ }
+
+
+
+
+ @media(max-width:1001px){
+    .thankyou{
+      border:2px solid green;
+      width:102%;
+    }
+
+  }
+  @media(max-width:969px){
+    .thankyou{
+      border:2px solid green;
+      width:105%;
+    }
+  }
+  @media(max-width:940px){
+    .thankyou{
+      border:2px solid green;
+      width:107%;
+    }
+  }
+  @media(max-width:913px){
+    .thankyou{
+      border:2px solid green;
+      width:109%;
+    }
+  }
+  @media(max-width:894px){
+    .thankyou{
+      border:2px solid green;
+      width:113%;
+    }
+    .thanks h1{
+        padding-top: 2%;
+        font-size: 35px;
+     }
+     .thanks p{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 12px;
+      }
+  }
+  @media(max-width:860px){
+    .thankyou{
+      border:2px solid green;
+      width:117%;
+    }
+    .thanks h1{
+        padding-top: 15%;
+        font-size: 35px;
+        margin-right: 13%;
+     }
+     .thanks p{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 12px;
+        margin-left: 0.1%;
+      }
+  }
+  @media(max-width:834px){
+    .thankyou{
+      border:2px solid green;
+      width:120%;
+    }
+  }
+  @media(max-width:798px){
+    .thankyou{
+      border:2px solid green;
+      width:125%;
+    }
+  }
+  @media(max-width:785px){
+    .thankyou{
+      border:2px solid green;
+      width:128%;
+    }
+  }
+  @media(max-width:737px){
+    .thankyou{
+      border:2px solid green;
+      width:136%;
+    }
+  }
+  @media(max-width:711px){
+    .thankyou{
+      border:2px solid green;
+      width:145%;
+    }
+  }
+  @media(max-width:676px){
+    .thankyou{
+      border:2px solid green;
+      width:148%;
+    }
+  }
+  @media(max-width:668px){
+    .thankyou{
+      border:2px solid green;
+      width:151%;
+    }
+  }
+  @media(max-width:653px){
+    .thankyou{
+      border:2px solid green;
+      width:153%;
+    }
+  }
+  @media(max-width:640px){
+    .thankyou{
+      border:2px solid green;
+      width:159%;
+    }
+  }
+  @media(max-width:610px){
+    .thankyou{
+      border:2px solid green;
+      width:162%;
+    }
+  }
+  @media(max-width:591px){
+    .thankyou{
+      border:2px solid green;
+      width:169%;
+    }
+  }
+  @media(max-width:581px){
+    .thankyou{
+      border:2px solid green;
+      width:172%;
+    }
+  }
+  @media(max-width:567px){
+    .thankyou{
+      border:2px solid green;
+      width:175%;
+    }
+  }
+  @media(max-width:556px){
+    .thankyou{
+      border:2px solid green;
+      width:180%;
+    }
+  }
+  @media(max-width:545px){
+    .thankyou{
+      border:2px solid green;
+      width:184%;
+    }
+  }
+  @media(max-width:535px){
+    .thankyou{
+      border:2px solid green;
+      width:187%;
+    }
+  }
+  @media(max-width:525px){
+    .thankyou{
+      border:2px solid green;
+      width:190%;
+    }
+  }
+  @media(max-width:512px){
+    .thankyou{
+      border:2px solid green;
+      width:197%;
+    }
+  }
+  @media(max-width:491px){
+    .thankyou{
+      border:2px solid green;
+      width:206%;
+    }
+  }
+  @media(max-width:481px){
+    .thankyou{
+      border:2px solid green;
+      width:209%;
+    }
+  }
+  @media(max-width:479px){
+    .thankyou{
+      border:2px solid green;
+      width:310%;
+    }
+  }
+  @media(max-width:346px){
+    .thankyou{
+      border:2px solid green;
+      width:322%;
+    }
+  }
+  @media(max-width:326px){
+    .thankyou{
+      border:2px solid green;
+      width:340%;
+    }
+  }
+  @media(max-width:311px){
+    .thankyou{
+      border:2px solid green;
+      width:357%;
+    }
+  }
